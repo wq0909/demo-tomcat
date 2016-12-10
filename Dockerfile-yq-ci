@@ -1,0 +1,6 @@
+FROM hub.c.163.com/public/tomcat:7.0.62
+
+ADD compressed /webroot
+RUN \
+  touch date_ci.txt && \
+  date >> date.txt
