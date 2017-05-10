@@ -1,4 +1,4 @@
-FROM 10.180.155.50:5001/nce2/tomcat:7.0.62
+FROM 10.185.8.157:5001/nce2/tomcat:7.0.62
 
 ADD compressed /webroot
 RUN \
