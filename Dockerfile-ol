@@ -3,5 +3,4 @@ FROM hub.c.163.com/public/tomcat:7.0.28
 ADD compressed /webroot
 RUN \
   touch date_online.txt && \
-  date >> date_online.txt \
-  chmod +x webroot/check_disk.sh
+  date >> date_online.txt
